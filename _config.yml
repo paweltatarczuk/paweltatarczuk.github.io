@@ -21,7 +21,6 @@ url: "trawiasty.github.io" # the base hostname & protocol for your site, e.g. ht
 github_username:  trawiasty
 
 # Build settings
-markdown: CommonMark
 theme: minima
 plugins:
   - jekyll-feed
