@@ -13,17 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trawiasty (Paweł Tatarczuk)
-email: paweltatarczuk@gmail.com
+title: Paweł Tatarczuk
 description: >- # this means to ignore newlines until "baseurl:"
-  Web enthusiast, ...
+  Web enthusiast, automation fan, that's me, Paweł Tatarczuk.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "trawiasty.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TrawekP
 github_username:  trawiasty
 
 # Build settings
-markdown: kramdown
+markdown: CommonMark
 theme: minima
 plugins:
   - jekyll-feed
@@ -39,3 +37,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Use octicons
+gems:
+  - jekyll-octicons
+

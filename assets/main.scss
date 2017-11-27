@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+html {
+  font-size: 90%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul.work-experience, ul.education {
+  position: relative;
+  padding: 1rem 0 1rem 6rem;
+  
+  &:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    width: 0.4rem;
+    content: '';
+    background: #e0e0e0;
+  }
+  
+  .timeline-entry {
+    position: absolute;
+    display: block;
+    left: 0;
+    padding-left: 2rem;
+    color: #6f6f6f;
+    font-weight: bold;
+    
+    &:before {
+      position: absolute;
+      top: 0.2rem;
+      display: inline-block;
+      right: 100%;
+      margin-right: -1.0rem;
+      content: '';
+      border-style: solid;
+      border-width: 0.5rem 0 0.5rem 0.5rem;
+      border-color: transparent transparent transparent #e0e0e0;
+    }
+    
+    &:after {
+      position: absolute;
+      top: 0.2rem;
+      right: 100%;
+      margin-right: -0.5rem;
+      display: inline-block;
+      width: 1.5rem;
+      height: 1rem;
+      background: #e0e0e0;
+      content: '';
+    }
+  }
+}
