@@ -1,5 +1,5 @@
 ---
 layout: cv
 title: Curriculum Vitae
-permalink: /cv/
+permalink: cv
 ---
