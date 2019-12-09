@@ -3,11 +3,24 @@
 ---
 
 html {
-  font-size: 90%;
+  font-size: 1.2rem;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Space Mono", monospace;
+}
+
+html, body {
+  background: #001020;
+  color: white;
+}
+
+.prompt {
+  color: #f0f000;
+}
+
+.command {
+  color: #00ffb8;
 }
 
 ul.work-experience, ul.education {
@@ -20,9 +33,9 @@ ul.work-experience, ul.education {
     top: 0;
     right: 100%;
     bottom: 0;
-    width: 0.4rem;
+    width: 0.2rem;
     content: '';
-    background: #e0e0e0;
+    background: #6f6f6f;
   }
   
   .timeline-entry {
@@ -35,25 +48,25 @@ ul.work-experience, ul.education {
     
     &:before {
       position: absolute;
-      top: 0.2rem;
+      top: 0.5rem;
       display: inline-block;
       right: 100%;
-      margin-right: -1.0rem;
+      margin-right: -0.75rem;
       content: '';
       border-style: solid;
-      border-width: 0.5rem 0 0.5rem 0.5rem;
-      border-color: transparent transparent transparent #e0e0e0;
+      border-width: 0.25rem 0 0.25rem 0.25rem;
+      border-color: transparent transparent transparent #6f6f6f;
     }
     
     &:after {
       position: absolute;
-      top: 0.2rem;
+      top: 0.5rem;
       right: 100%;
       margin-right: -0.5rem;
       display: inline-block;
-      width: 1.5rem;
-      height: 1rem;
-      background: #e0e0e0;
+      width: 1rem;
+      height: 0.5rem;
+      background: #6f6f6f;
       content: '';
     }
   }
