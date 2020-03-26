@@ -5,7 +5,7 @@ layout: default
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 <div class="home">
-  
+
   <p id="typewriter" style="white-space: pre-line;">
     <span class="prompt">trawiasty@github.io$</span> <span class="command">hi</span>
 
@@ -15,9 +15,9 @@ layout: default
 
     <span class="prompt">trawiasty@github.io$</span> <span class="command">journey</span>
 
-    Not much to say, I've learned programming for years.
-    It seems like I'm not getting closer to the end. 
-    Here's a draft how it went so far:
+    Not much to say, I've learned programming for years.
+    It seems like I'm not getting closer to the end.
+    Here's a draft how it went so far:
 
     2008 - jportal
     2011 - drupal
@@ -28,10 +28,18 @@ layout: default
 </div>
 
 <script type="text/javascript">
-  let html = document.getElementById('typewriter').innerHTML;
+  const html = document.getElementById('typewriter').innerHTML;
+  const strings = html.trim().split('\n');
+  console.log(html);
   const typewriter = new Typewriter('#typewriter', {
-    strings: html,
-    autoStart: true,
-    delay: 30
+    delay: 20
   });
+
+  strings.forEach((string) => {
+    typewriter
+      .typeString(string + '\n')
+      .pauseFor(60);
+  });
+
+  typewriter.start();
 </script>

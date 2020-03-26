@@ -5,13 +5,12 @@ layout: default
 <div class="cv">
 
   <div class="row">
-    <div class="col-xl-3 col-md-4">
+    <div class="col-md-4">
 
       <img class="my-4 mw-100 rounded-circle" src="{{ site_url }}/assets/photo.jpg" alt="My photo">
 
       <div class="text-center">
         <h3>Paweł Tatarczuk</h3>
-        <h4 class="text-muted">SysOps/DevOps</h4>
       </div>
 
       <hr class="my-4">
@@ -27,10 +26,6 @@ layout: default
       <h4 class="my-3">{% octicon home %}  Personal</h4>
 
       <div class="d-flex justify-content-between">
-        <div><strong>Birthday</strong></div>
-        <div>02 October 1992</div>
-      </div>
-      <div class="d-flex justify-content-between">
         <div><strong>Nationality</strong></div>
         <div>Polish</div>
       </div>
@@ -38,13 +33,17 @@ layout: default
         <div><strong>Location</strong></div>
         <div>Wrocław, Poland</div>
       </div>
+      <div class="d-flex justify-content-between">
+        <div><strong>Hobbies</strong></div>
+        <div>guitar, automation</div>
+      </div>
 
       <hr class="my-4">
 
-      <h4 class="my-3">{% octicon star %}  Skills</h4>
+      <h4 class="my-3">{% octicon star %} Areas of intrest</h4>
 
       <div class="d-flex justify-content-between">
-        <div><strong>PHP</strong></div>
+        <div><strong>Web development</strong></div>
         <div>
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
@@ -55,7 +54,7 @@ layout: default
         </div>
       </div>
       <div class="d-flex justify-content-between">
-        <div><strong>Docker</strong></div>
+        <div><strong>Automation</strong></div>
         <div>
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
@@ -66,13 +65,13 @@ layout: default
         </div>
       </div>
       <div class="d-flex justify-content-between">
-        <div><strong>Ansible</strong></div>
+        <div><strong>Programming</strong></div>
         <div>
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
+          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
           {% octicon primitive-dot style: "fill: #c9c9c9;" %}
         </div>
       </div>
@@ -88,40 +87,18 @@ layout: default
         </div>
       </div>
       <div class="d-flex justify-content-between">
-        <div><strong>Node.js</strong></div>
+        <div><strong>Databases</strong></div>
         <div>
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
+          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
           {% octicon primitive-dot style: "fill: #c9c9c9;" %}
           {% octicon primitive-dot style: "fill: #c9c9c9;" %}
         </div>
       </div>
       <div class="d-flex justify-content-between">
-        <div><strong>Python</strong></div>
-        <div>
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
-          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
-        </div>
-      </div>
-      <div class="d-flex justify-content-between">
-        <div><strong>CI/CD</strong></div>
-        <div>
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #007bff;" %}
-          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
-          {% octicon primitive-dot style: "fill: #c9c9c9;" %}
-        </div>
-      </div>
-      <div class="d-flex justify-content-between">
-        <div><strong>SQL/NoSQL</strong></div>
+        <div><strong>Virtualization</strong></div>
         <div>
           {% octicon primitive-dot style: "fill: #007bff;" %}
           {% octicon primitive-dot style: "fill: #007bff;" %}
@@ -131,6 +108,7 @@ layout: default
           {% octicon primitive-dot style: "fill: #c9c9c9;" %}
         </div>
       </div>
+
 
       <hr class="my-4">
 
@@ -171,7 +149,7 @@ layout: default
       </div>
 
     </div>
-    <div class="offset-xl-2 col-xl-7 offset-md-1 col-md-7">
+    <div class="offset-xl-1 col-xl-7 offset-md-1 col-md-7">
 
       <h4 class="my-5">
         {% octicon briefcase %} Work experience
@@ -180,13 +158,37 @@ layout: default
       <ul class="work-experience">
         <li class="d-block pb-4">
           <span class="timeline-entry">now</span>
-          <h5>Unity Software</h5>
-          <h6>Senior Web Developer</h6>
+          <h5 class="text-muted d-flex justify-content-between">
+            <span>Codeminded</span>
+          </h5>
+          <h6>Chief Technology Officer</h6>
           <p class="text-muted">01.2019 - now</p>
+          <ul class="responsibilites p-0">
+            <li class="d-inline-block"><span class="badge badge-pill badge-secondary">DevOps</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-secondary">Fullstack</span></li>
+          </ul>
+          <ul class="tags p-0">
+            <li class="d-inline-block"><span class="badge badge-pill badge-warning">PHP</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-warning">Vue.js</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-success">Laravel</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-success">Drupal</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-primary">MySQL</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-primary">Ansible</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-primary">Jenkins</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-primary">Docker</span></li>
+            <li class="d-inline-block"><span class="badge badge-pill badge-primary">Kubernetes</span></li>
+          </ul>
+          <ul class="duties mt-3">
+            <li>Improving product quality</li>
+            <li>Providing dev environment</li>
+            <li>Rebuilding internal processes</li>
+          </ul>
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2018</span>
-          <h5>Piwik PRO <span class="float-right text-muted">(1 year)</span></h5>
+          <h5 class="text-muted d-flex justify-content-between">
+            <span>Piwik PRO</span> <span>(1 year)</span>
+          </h5>
           <h6>System Administrator</h6>
           <p class="text-muted">03.2018 - 12.2018</p>
           <div class="row">
@@ -209,12 +211,19 @@ layout: default
                 <li class="d-inline-block"><span class="badge badge-pill badge-primary">Rancher</span></li>
                 <li class="d-inline-block"><span class="badge badge-pill badge-primary">High-Availability</span></li>
               </ul>
+              <ul class="duties mt-3">
+                <li>Providing support to customers</li>
+                <li>Maintaining and deploying servers</li>
+                <li>Working on automation improvements</li>
+              </ul>
             <div>
           </div>
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2018</span>
-          <h5>Magently <span class="float-right text-muted">(4 years)</span></h5>
+          <h5 class="text-muted d-flex justify-content-between">
+            <span>Magently</span> <span>(4 years)</span>
+          </h5>
           <h6>Expert Web & Infrastructure Developer</h6>
           <p class="text-muted">01.2014 - 02.2018</p>
           <div class="row">
@@ -241,12 +250,20 @@ layout: default
                 <li class="d-inline-block"><span class="badge badge-pill badge-primary">OpenLDAP</span></li>
                 <li class="d-inline-block"><span class="badge badge-pill badge-primary">Docker</span></li>
               </ul>
+              <ul class="duties mt-3">
+                <li>Building websites from scratch</li>
+                <li>Maintaining existing websites</li>
+                <li>Providing improvements to dev environment</li>
+                <li>Maintaining servers</li>
+              </ul>
             <div>
           </div>
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2014</span>
-          <h5>Chop-Chop <span class="float-right text-muted">(2 years)</span></h5>
+          <h5 class="text-muted d-flex justify-content-between">
+            <span>Chop-Chop</span> <span>(2 years)</span>
+          </h5>
           <h6>Web Developer</h6>
           <p class="text-muted">01.2012 - 12.2013</p>
           <div class="row">
@@ -264,12 +281,17 @@ layout: default
                 <li class="d-inline-block"><span class="badge badge-pill badge-success">jQuery</span></li>
                 <li class="d-inline-block"><span class="badge badge-pill badge-primary">MySQL</span></li>
               </ul>
+              <ul class="duties mt-3">
+                <li>Building websites from scratch</li>
+              </ul>
             </div>
           </div>
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2012</span>
-          <h5>Freelance <span class="float-right text-muted">(4 years)</span></h5>
+          <h5 class="text-muted d-flex justify-content-between">
+            <span>Freelance</span> <span>(4 years)</span>
+          </h5>
           <p class="text-muted">2008 - 01.2012</p>
           <div class="row">
             <div class="col-md-10">
@@ -284,6 +306,10 @@ layout: default
                 <li class="d-inline-block"><span class="badge badge-pill badge-success">Drupal</span></li>
                 <li class="d-inline-block"><span class="badge badge-pill badge-success">jQuery</span></li>
               </ul>
+              <ul class="duties mt-3">
+                <li>Building websites from scratch</li>
+                <li>Applying minor changes to existing websites</li>
+              </ul>
             </div>
           </div>
         </li>
@@ -296,7 +322,7 @@ layout: default
       <ul class="education">
         <li class="d-block pb-4">
           <span class="timeline-entry">2016</span>
-          <h5>Master's degree</h5>
+          <h5 class="text-muted">Master's degree</h5>
           <h6>Politechnika Wrocławska</h6>
           <p class="text-muted">2014 - 2016</p>
           <div class="row">
@@ -317,7 +343,7 @@ layout: default
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2014</span>
-          <h5>Engineer's degree</h5>
+          <h5  class="text-muted">Engineer's degree</h5>
           <h6>Politechnika Wrocławska</h6>
           <p class="text-muted">2011 - 2014</p>
           <div class="row">
@@ -339,7 +365,7 @@ layout: default
         </li>
         <li class="d-block pb-4">
           <span class="timeline-entry">2010</span>
-          <h5>Participation in 2nd stage of 17th Computer science olympics in Poland</h5>
+          <h5 class="text-muted">Participation in 2nd stage of 17th Computer science olympics in Poland</h5>
           <h6>Politechnika Poznańska</h6>
           <p class="text-muted">2010</p>
           <div class="row">

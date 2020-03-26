@@ -1,0 +1,13 @@
+---
+version: '3.7'
+
+services:
+  app:
+    image: ruby:2
+    environment:
+      - BUNDLE_PATH=/app/vendor
+    command: bash -c 'bundle install && bundle exec jekyll server'
+    volumes:
+      - ./:/app/
+    working_dir: /app
+    network_mode: host
