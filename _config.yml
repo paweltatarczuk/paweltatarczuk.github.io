@@ -17,8 +17,8 @@ title: Paweł Tatarczuk
 description: >- # this means to ignore newlines until "baseurl:"
   Web enthusiast, automation fan, that's me, Paweł Tatarczuk.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "trawiasty.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  trawiasty
+url: "paweltatarczuk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  paweltatarczuk
 
 # Build settings
 theme: minima
